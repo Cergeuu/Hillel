@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 
 #### Створити клас з абстрактним методом. Створити об'єкт даного класу.
-class AbstractClass(ABC):
+class AbstractClass():
     @abstractmethod
     def abstract_method(self):
         pass
